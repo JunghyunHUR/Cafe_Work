@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,12 +7,72 @@
     <title>Doum</title>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="css/style.css">
-    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src=../Jquery/jquery.min.js></script>
     <script src="js/cafe.js"></script>
 </head>
 <body>
-    
+    <header>
+    <div class="container d-flex justify-content-between">
+        <a href="#" class="mainlogo"><img src="images/001.png" alt="#"></a>
+        <div class="top-nav">
+        <ul class="top-nav d-flex list-style-none">
+            <li><a href="#" class="loging">로그인</a></li>
+            <li><a>
+                <span class="material-symbols-outlined">
+                mail
+                </span></a>
+            </li>
+            <li>
+                <a href="#" class="list">
+                <span class="material-symbols-sharp">
+                    grid_view
+                    </span>
+                </a>
+                <div class="list-view">
+                    <!--아이콘 4개-->
+                    <ul class="text-center icon-list list-style-none d-flex justify-content-between">
+                        <li><a href="#"><img src="images/icon1.png" alt="001">카페</a></li>
+                        <li><a href="#"><img src="images/icon2.png" alt="002">커피</a></li>
+                        <li><a href="#"><img src="images/icon3.png" alt="003">회식</a></li>
+                        <li><a href="#"><img src="images/icon4.png" alt="004">채팅</a></li>
+                    </ul>
+                    <!--네비게이션 아이콘당 한 줄씩-->
+                     <ul class="map-list d-flex list-style-none">
+                        <li>
+                            <a href="#">블로그</a>
+                            <a href="#">블로그</a>
+                            <a href="#">블로그</a>
+                            <a href="#">블로그</a>
+                        </li>
+                        <li>
+                            <a href="#">블로그</a>
+                            <a href="#">블로그</a>
+                            <a href="#">블로그</a>
+                            <a href="#">블로그</a>
+                        </li>
+                        <li>
+                            <a href="#">블로그</a>
+                            <a href="#">블로그</a>
+                            <a href="#">블로그</a>
+                            <a href="#">블로그</a>
+                        </li>
+                        <li>
+                            <a href="#">블로그</a>
+                            <a href="#">블로그</a>
+                            <a href="#">블로그</a>
+                            <a href="#">블로그</a>
+                        </li>
+                    </ul>
+                    <a href="#" class="all text-center">전체보기</a>
+                </div>
+            </li>
+        </ul>
+        </div>
+        </div>
+    </header>
 
 </body>
 </html>
